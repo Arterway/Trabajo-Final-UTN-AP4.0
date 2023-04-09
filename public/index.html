@@ -69,13 +69,13 @@
   <div id="carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+          <img src="./img/slide1.jpg" class="d-block w-100" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+          <img src="./img/slide2.jpg" class="d-block w-100" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+          <img src="./img/slide3.jpg" class="d-block w-100" alt="slide3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
@@ -89,7 +89,7 @@
   </div>
   <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
     <h2 class="p-3 border-top border-3">Un emprendimiento que busca la innovación</h2>
-     <p class="p-3"><span class="text-primary">InnovaTeam</span> es un conjunto de equipos de desarrollo y trabajo que busca complementar de manera efectiva y organizada distintos campos de la tecnología.</p>   
+     <p class="p-3 fs-5"><span class="text-primary">InnovaTeam</span> es un conjunto de equipos de desarrollo y trabajo que busca complementar de manera efectiva y organizada distintos campos de la tecnología.</p>   
      <img src="img/intr.svg" alt="introducción width="200" height="180"">
   </section>
   <section class="d-flex flex-column justify-content-center align-items-center py-4  text-center" id="nosotros">
@@ -113,7 +113,7 @@
           <img src="./img/diseñadores.svg" alt="Diseñadores"  width="180" height="160">
           <div>
             <h3 class="fs-4 mt-4 px-4 pb-1 text-primary text-decoration-underline">Diseñadores</h3>
-            <p class="px-4">Diseño, Conceptualización e implementacion de interfaces UX/UI efectivas</p>
+            <p class="px-4 fs-5">Diseño, Conceptualización e implementacion de interfaces UX/UI efectivas</p>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@
           <img src="./img/frontend.svg" alt="concepto" width="180" height="160">
           <div>
             <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores FRONTEND</h3>
-            <p class="px-4">Desarrolladores encargados del funcionamiento FRONTEND (Javscript y su ecosistema de FrameWorks).</p>
+            <p class="px-4 fs-5">Desarrolladores encargados del funcionamiento FRONTEND (Javscript y su ecosistema de FrameWorks).</p>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
           <img src="./img/backend.svg" alt="concepto" width="180" height="160">
           <div>
             <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores BACKEND</h3>
-            <p class="px-4">Desarrolladores encargados del funcionamiento BACKEND (Java-.NET-Node.js).</p>
+            <p class="px-4 fs-5">Desarrolladores encargados del funcionamiento BACKEND (Java-.NET-Node.js).</p>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
           <img src="./img/mobile.svg" alt="concepto" width="180" height="160">
           <div>
             <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores MOBILE</h3>
-            <p class="px-4">Desarrolladores encargados de hacer aplicaciónes moviles nativas (Java-Kotlin).</p>
+            <p class="px-4 fs-5">Desarrolladores encargados de hacer aplicaciónes moviles nativas (Java-Kotlin).</p>
           </div>
         </div>
       </div>    
@@ -152,21 +152,21 @@
           <h2>Contactanos</h2>
           <p class="">Estamos aqui para ayudarte en tu consulta.</p>
         </div>
-        <form   method="POST" data-netlify="true" action="#">     
-          <div class= "mb-3">           
-            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
-          </div>
+        <form method="post" data-netlify="true" action="" id="contact-form">     
           <div class="mb-3">            
-            <input type="input" class="form-control" id="name" name="name" placeholder="Din Djarin">
+            <input type="input" class="form-control" id="fullname" name="fullname" placeholder="Nombre completo" required>
+          </div>
+          <div class= "mb-3">           
+            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
           </div>
           <div class="mb-3">
-            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono" required>
           </div>
           <div class="mb-3">       
             <textarea class="form-control" name="message" id="message" rows="4"></textarea>
           </div>
           <div class="mb-3">
-            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+            <button type="submit" class="btn btn-primary w-100 fs-5">Enviar Mensaje</button>
           </div>
         </form>
     </div>
@@ -178,7 +178,7 @@
         <a href="#"><i class="bi bi-twitter"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>  
     </div>
-  </footer>   
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="main.js"></script>
