@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: url("/public/img/bg1.svg") no-repeat;
+}
+.carousel-inner {
+  margin-top: 0px;
+  max-height:40rem !important;
+}
+#equipos{
+  background: url("/public/img/bg2.svg") no-repeat right center;
+  background-size: cover;
+}
+#iconos  i {
+  font-size: 24px;
+  padding: 0 8px;
+  color: white;
+}
+#contenedor-formulario{
+  background: #fbfafa;
+  border-radius:5px;
+}
+
+#titulo-formulario {
+  color: #3f3f3f;
+}

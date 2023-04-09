@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>TP Final - AP 4.0</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="bi bi-lightbulb-fill"></i>
+        <i class="bi bi-flower1"></i>
+        <span class="text-white">InnovaTeam</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#intro">Organización</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FProceso</a>
+          </li>
+        </ul>
+        <hr class="d-md-none text-white-50">
+        <ul class="navbar-nav  flex-row flex-wrap text-light">
+         <li class="nav-item col-6 col-md-auto p-3">
+            <a href="#" class="link-light">
+              <i class="bi bi-twitter"></i>
+              <small class="d-md-none ms-2">Twitter</small>  
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <a href="#" class="link-light">
+              <i class="bi bi-github"></i>
+              <small class="d-md-none ms-2">GitHub</small> 
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <a href="#" class="link-light">
+              <i class="bi bi-whatsapp"></i>
+              <small class="d-md-none ms-2">WhatsApp</small>
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <a href="#" class="link-light">
+              <i class="bi bi-facebook"></i>
+              <small class="d-md-none ms-2">Facebook</small>
+            </a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+  </header>
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+        </div>
+        
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+        </div>
+
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Un emprendimiento que busca la innovación</h1>
+     <p class="p-3  fs-4"><span class="text-primary">InnovaTeam</span> es un conjunto de equipos de desarrollo y trabajo que busca complementar de manera efectiva y organizada distintos campos de la tecnología.</p>   
+  </section>
+  <section class="w-100" id="equipos">
+    <div class="text-center">
+      <h1 class="p-3 fs-2">Nuestros Equipos</h1>
+    </div>
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <div class="container-fluid text-center">
+          <img src="./img/diseñadores.svg" alt="Diseñadores"   width="180" height="160">
+          <div>
+            <h3 class="fs-4 mt-4 px-4 pb-1 text-primary text-decoration-underline">Diseñadores</h3>
+            <p class="px-4">Diseño, Conceptualización e implementacion de interfaces UX/UI efectivas</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <div class="container-fluid text-center">
+          <img src="./img/frontend.svg" alt="concepto" width="180" height="160">
+          <div>
+            <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores FRONTEND</h3>
+            <p class="px-4">Desarrolladores encargados del funcionamiento FRONTEND (Javscript y su ecosistema de FrameWorks).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <div class="container-fluid text-center">
+          <img src="./img/backend.svg" alt="concepto" width="180" height="160">
+          <div>
+            <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores BACKEND</h3>
+            <p class="px-4">Desarrolladores encargados del funcionamiento BACKEND (Java-.NET-Node.js).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <div class="container-fluid text-center">
+          <img src="./img/mobile.svg" alt="concepto" width="180" height="160">
+          <div>
+            <h3 class="fs-4 mt-4 px-4 pb-1 icono-wrap text-primary text-decoration-underline">Programadores MOBILE</h3>
+            <p class="px-4">Desarrolladores encargados de hacer aplicaciónes moviles nativas (Java-Kotlin).</p>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </section>
+  <section id="seccion-contacto" class="bg-dark border-bottom border-secondary border-2 py-4">
+    <div class="container p-4 border-top border-dark" style="max-width: 500px" id="contenedor-formulario">
+        <div class="text-center my-4" id="titulo-formulario">
+          <h2>Contactanos</h2>
+          <p class="fs-5">Estamos aqui para ayudarte en tu consulta.</p>
+        </div>
+        <form   method="POST" data-netlify="true" action="#">     
+          <div class= "mb-3">           
+            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">            
+            <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+          </div>
+          <div class="mb-3">       
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+          </div>
+        </form>
+    </div>
+  </section>
+  <footer class="bg-dark w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-7 px-3 pt-3 text-white">InnovaTeam. &copy; Todos Los Derechos Reservados 2023</p>
+    <div id="iconos" >
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>  
+    </div>
+  </footer>   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
