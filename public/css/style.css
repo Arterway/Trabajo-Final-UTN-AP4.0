@@ -3,6 +3,7 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   background: url("/public/img/bg1.svg") no-repeat;
+  overflow-x: hidden;
 }
 .carousel-inner {
   margin-top: 0px;
